@@ -57,7 +57,7 @@ def getsticker(bot: Bot, update: Update):
                im.save("sticker.png", "png") 
                bot.sendDocument(chat_id, document=open('sticker.png', 'rb'))
             except IOError: 
-                   update.effective_message.reply_text("Dammit, got some errors while processing the sticker, you may report it to my master - (@allukatm) if the error persists.")
+                   update.effective_message.reply_text("Dammit, Got Some Errors While Processing The Sticker,\nYou May Report It\n\n Do - `/feedback <problem>`\n If The Error Persists.")
 
             os.remove("sticker.png")
        elif msg.reply_to_message.document:
@@ -71,12 +71,12 @@ def getsticker(bot: Bot, update: Update):
                im.save("sticker.png", "png") 
                bot.sendDocument(chat_id, document=open('sticker.png', 'rb'))
             except IOError: 
-                   update.effective_message.reply_text("Dammit, got some errors while processing the sticker, you may report it to my master - (@spookyenvy) if the error persists.")
+                   update.effective_message.reply_text("Dammit, Got Some Errors While Processing The Sticker,\nYou May Report It\n\n Do - `/feedback <problem>`\n If The Error Persists.")
             os.remove("sticker.png")
        else:
-           update.effective_message.reply_text("Unknown format. sticker/photo/document are the supported formats.")
+           update.effective_message.reply_text("Unknown Format. Sticker/Photo/Document Are The Supported Formats.")
     else:
-        update.effective_message.reply_text("Please reply to a sticker/photo/document for me to upload its PNG.")
+        update.effective_message.reply_text("Please Reply To A Sticker/Photo/Document For Me To Upload Its PNG.")
 
 
 @run_async
