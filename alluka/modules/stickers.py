@@ -57,7 +57,7 @@ def getsticker(bot: Bot, update: Update):
                im.save("sticker.png", "png") 
                bot.sendDocument(chat_id, document=open('sticker.png', 'rb'))
             except IOError: 
-                   update.effective_message.reply_text("Dammit, Got Some Errors While Processing The Sticker,\nYou May Report It\n\n Do - `/feedback <problem>` \n If The Error Persists.")
+                   update.effective_message.reply_text("Dammit, Got Some Errors While Processing The Sticker,\nYou May Report It\n\n Do - <i>/feedback <problem><i> \n If The Error Persists.")
 
             os.remove("sticker.png")
        elif msg.reply_to_message.document:
@@ -71,7 +71,7 @@ def getsticker(bot: Bot, update: Update):
                im.save("sticker.png", "png") 
                bot.sendDocument(chat_id, document=open('sticker.png', 'rb'))
             except IOError: 
-                   update.effective_message.reply_text("Dammit, Got Some Errors While Processing The Sticker,\nYou May Report It\n\n Do - `/feedback <problem>` \n If The Error Persists.")
+                   update.effective_message.reply_text("Dammit, Got Some Errors While Processing The Sticker,\nYou May Report It\n\n Do - <i>/feedback <problem><i> \n If The Error Persists.")
             os.remove("sticker.png")
        else:
            update.effective_message.reply_text("Unknown Format. Sticker/Photo/Document Are The Supported Formats.")
