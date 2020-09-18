@@ -56,7 +56,7 @@ def no_longer_afk(bot: Bot, update: Update):
             'Stop! Your Discussion\n {} Is Back.',
             'Welcome Back, {}',
             'Wait, What??🤨 \n {} Is Back!!',
-            'Look Here Who Is Back! {}',
+            'Look Here Who Is Back! - {}',
             "I Can't Believe😵 \n {} Is Back!",
      
                     ]
