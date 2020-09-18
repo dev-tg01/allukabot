@@ -57,7 +57,7 @@ def no_longer_afk(bot: Bot, update: Update):
             'Welcome Back, {}'
             'Wait, What??🤨 \n {} Is Back!!'
             'Look Here Who Is Back! {}'
-            'I Can't Believe 😵 \n {} Is Back!'
+            'I Can't Believe😵 \n {} Is Back!'
      
                     ]
             chosen_option = random.choice(options)
