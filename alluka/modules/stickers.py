@@ -25,7 +25,7 @@ def stickerid(bot: Bot, update: Update):
                                             escape_markdown(msg.reply_to_message.sticker.file_id) + "```",
                                             parse_mode=ParseMode.MARKDOWN)
     else:
-        update.effective_message.reply_text("Please reply to a sticker to get its ID.")
+        update.effective_message.reply_text("Please Reply To A Sticker To Get Its ID. 🌚")
 
 
 @run_async
@@ -57,7 +57,7 @@ def getsticker(bot: Bot, update: Update):
                im.save("sticker.png", "png") 
                bot.sendDocument(chat_id, document=open('sticker.png', 'rb'))
             except IOError: 
-                   update.effective_message.reply_text("Dammit, Got Some Errors While Processing The Sticker,\nYou May Report It\n\n Do - <i>/feedback <problem><i> \n If The Error Persists.")
+                   update.effective_message.reply_text("Dammit, Got Some Errors While Processing The Sticker,\nYou May Report It\n\n Do - ` /feedback <problem> ` \n If The Error Persists.")
 
             os.remove("sticker.png")
        elif msg.reply_to_message.document:
@@ -71,7 +71,7 @@ def getsticker(bot: Bot, update: Update):
                im.save("sticker.png", "png") 
                bot.sendDocument(chat_id, document=open('sticker.png', 'rb'))
             except IOError: 
-                   update.effective_message.reply_text("Dammit, Got Some Errors While Processing The Sticker,\nYou May Report It\n\n Do - <i>/feedback <problem><i> \n If The Error Persists.")
+                   update.effective_message.reply_text("Dammit, Got Some Errors While Processing The Sticker,\nYou May Report It\n\n Do - ` /feedback <problem> ` \n If The Error Persists.")
             os.remove("sticker.png")
        else:
            update.effective_message.reply_text("Unknown Format. Sticker/Photo/Document Are The Supported Formats.")
@@ -98,7 +98,7 @@ def kang(bot: Bot, update: Update, args: List[str]):
         elif reply.document:
             file_id = reply.document.file_id
         else:
-            msg.reply_text("Reply to an image or sticker to kang it.")
+            msg.reply_text("Reply To An Image Or Sticker To Kang It.🙃")
             return
         kang_file = bot.get_file(file_id)
         kang_file.download(kangsticker)
@@ -123,10 +123,10 @@ def kang(bot: Bot, update: Update, args: List[str]):
             urllib.urlretrieve(png_sticker, kangsticker)
         except HTTPError as HE:
             if HE.reason == 'Not Found':
-                msg.reply_text("Image not found.")
+                msg.reply_text("Image Not Found 🌚.")
                 return
             elif HE.reason == 'Forbidden':
-                msg.reply_text("Couldn't access the provided link, The website might have blocked accessing to the website by bot or the website does not existed.")
+                msg.reply_text("Couldn't Access The Provided Link, The Website Might Have Blocked Accessing To The Website By Bot Or The Website Does Not Existed.")
                 return
         except URLError as UE:
             msg.reply_text(f"{UE.reason}")
@@ -146,7 +146,7 @@ def kang(bot: Bot, update: Update, args: List[str]):
         msg.reply_text("I've added this sticker to your pack." +"\n" "Emoji(s):" + " " + sticker_emoji, parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                 text="I've added this sticker to your pack", url=f"t.me/addstickers/{packname}")]]))
     except OSError as e:
-        msg.reply_text("I can only kang images sir.")
+        msg.reply_text("I Can Only Kang Images Sir.")
         print(e)
         return
     except TelegramError as e:
@@ -155,7 +155,7 @@ def kang(bot: Bot, update: Update, args: List[str]):
         elif e.message == "Invalid sticker emojis":
             msg.reply_text("Invalid emoji(s).")
         elif e.message == "Stickers_too_much":
-            msg.reply_text("Max packsize reached. Press F to pay respect.")
+            msg.reply_text("Max Pack-size Reached.🙃\n Press F To Pay Respect.🤡")
         print(e)
 
 def makepack_internal(msg, user, png_sticker, emoji, bot):
@@ -173,14 +173,14 @@ def makepack_internal(msg, user, png_sticker, emoji, bot):
                            parse_mode=ParseMode.MARKDOWN)
         elif e.message == "Peer_id_invalid":
             msg.reply_text("I need you to PM to me first to be able to gain your basic information.", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
-                text="PM the bot", url=f"t.me/{bot.username}")]]))
+                text="PM The Bot", url=f"t.me/{bot.username}")]]))
         return
 
     if success:
         msg.reply_text("I've created a new sticker pack for you and added this sticker as well. Get the pack [here!](t.me/addstickers/%s)" % packname,
                        parse_mode=ParseMode.MARKDOWN)
     else:
-        msg.reply_text("I couldn't create a sticker pack. Possibly due to some black magic.")
+        msg.reply_text("I Couldn't Create A Sticker Pack.\n Possibly Due To Some Black Magic🌚.")
 
 def imresize(kangsticker):
     im = Image.open(kangsticker)
