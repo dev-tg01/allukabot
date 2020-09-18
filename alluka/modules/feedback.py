@@ -14,7 +14,7 @@ def feedback(bot: Bot, update: Update):
   message = update.effective_message
   userid=message.from_user.id
   text = message.text[len('/feedback'):]
-  text = message.text[len('/feedback '):]
+  text = message.text[len('/feedback@MissHinata_Bot'):]
    
 
   feed_text = f"Hinata's *New* Feedback From [{name}](tg://user?id={userid})\n\nFeed→一>→ : {text}"
