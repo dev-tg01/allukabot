@@ -1,5 +1,8 @@
 TRUTH = (
-    "Have you ghosted someone?"
+    "Do you pick your nose?",
+    "Do you sing in the shower? ",
+    "Do you ever talk to yourself in the mirror? ",
+    "Have you ghosted someone?",
     "Have you ever walked in on your parents doing 'it'?",
     "Who was the last person you liked the most? Why?",
     "Have you ever been suspended from school?",
@@ -16,11 +19,40 @@ TRUTH = (
     "When’s the last time you lied to your parents and why?",
     "Have you ever lied about your age to participate in a contest?",
     "Have you ever been caught checking someone out?",
+    "Do you talk in your sleep?",
+    "Do you think you'll marry your current girlfriend/boyfriend?",
+    "Would you trade your sibling in for a million dollars?",
+    "Would You Slap Your Bestfriend For A Million Dollars?",
+    "Have you ever had a crush on a teacher?",
+    "Have you ever smoked?",
+    "Have you ever tried drugs?",
+    "What about alcohol?",
+    "Are you still a virgin?",
+    "describe your perfect partner.",
+    "If you could make $1 million, would you drop out of school?",
+    "What is your worst habit?",
+    "How many people have you kissed?",
+    "Describe what your crush looks like.",
+    "If your friend and your boyfriend were both dying in front of you, who would try to save first?",
+    "Do you think your friend's (Boyfriend/Girlfriend) is hot?",
+    "If someone asked you what your best friend is like, how would you describe her/him?",
+    "What do you think about him/her now?",
+    "Kya Apke Toothpaste Me Namak He?",
+    "Rasode Me Kon Tha?",
+    "If you had to trade your friend in for the celebrity crush of your dreams, which friend would you choose?",
+    "Would you share a toothbrush with your best friend?",
+    "Who's hotter? You or your friend?',
+    "Who Is Stupid? (A. Your Friend  (B. You",
+    "Have you ever told a lie about your best friend to make yourself look better?",
+    "What's one food that you will never order at a restaurant?",
+    "What's one thing you would never eat on a first date?",
+    "How long have you gone without brushing your teeth?",
+    "How long have you gone without a shower?"
   
 )
 
 DARE = (
-    "Show the most embarrassing photo on your phone"
+    "Show the most embarrassing photo on your phone",
     "Show the last five people you texted and what the messages said",
     "Let the rest of the group DM someone from your Instagram account",
     "Eat a raw piece of garlic",
