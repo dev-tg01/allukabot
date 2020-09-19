@@ -41,7 +41,7 @@ TRUTH = (
     "Rasode Me Kon Tha?",
     "If you had to trade your friend in for the celebrity crush of your dreams, which friend would you choose?",
     "Would you share a toothbrush with your best friend?",
-    "Who's hotter? You or your friend?',
+    "Who's hotter? You or your friend?",
     "Who Is Stupid? (A. Your Friend  (B. You",
     "Have you ever told a lie about your best friend to make yourself look better?",
     "What's one food that you will never order at a restaurant?",
