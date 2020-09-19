@@ -11,7 +11,7 @@ def ud(bot: Bot, update: Update):
   message = update.effective_message
   text = message.text[len('/familylist '):]
   
-  Divuvideo = "https://telegra.ph/file/cae30f13d93b4c24f9fd8.mp4"
+  Divuimg = "https://telegra.ph/file/e5e03181bdc5011476216.png"
   Divu = """[Mr.Divu」](https://telegram.dog/imDivu) As *Itachi Uchiha*.\n\nDon't Be So Quick To Judge Me.\nAfter All, You Only See 👀 \nWhat I Choose To Show You.\n\nTo Get More About Him Do `/info @imDivu`"""
 
   Ayanokojiimg = "https://telegra.ph/file/1cf42dcd39ff264f5a2f1.jpg"
@@ -21,7 +21,7 @@ def ud(bot: Bot, update: Update):
  
 
   message.reply_photo(Ayanokojiimg, Ayanokoji, parse_mode=ParseMode.MARKDOWN)
-  message.reply_video(Divuvideo, Divu, parse_mode=ParseMode.MARKDOWN)  
+  message.reply_photo(Divuimg, Divu, parse_mode=ParseMode.MARKDOWN)  
 
 
   
