@@ -27,7 +27,7 @@ ban_sticker: 'CAACAgUAAxkBAAEGFsZfYw2yKu36GeDqHm4bnPQU_lhi9gACOgAD8CLzNdyuxbDUE7
 # API SETUP
 cash_api: None  
 time_api: None  
-wall_api: None
+wall_api: c3650ba964034e8539cf0b4bcfb03df6
 lydia_api: None
 sw_api: None
 
