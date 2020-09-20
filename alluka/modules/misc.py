@@ -1519,7 +1519,7 @@ MASTER_MOD = " \
  \n - /react: Reacts with a random reaction.  \
  \n - /shout <keyword>: write anything you want to give loud shout. \
  \n - /feedback : You can give us your feedbacks  \
-   an can see your feeds @MissLilly_Support here. \
+   an can see your feeds @allukaSupport here. \
  \n - /tts: {yourtext} will get your entered text into voice form.  \
  \n - /covid: get worldwide corona status \
  \n - /mathhelp: get all math related cmds. \
