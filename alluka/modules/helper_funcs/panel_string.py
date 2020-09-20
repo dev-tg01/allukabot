@@ -1,7 +1,7 @@
 ALLUKA_IMG = "https://telegra.ph/file/d19f4033e7de6677e7d8a.jpg"
 
 SOURCE_STRING = """
-I'm Built In python3, Using The python-telegram-bot library, And Am Fully Opensource - You Can Find What Makes Me Tick [here](https://telegra.ph/file/81ab4d5ad08092baaacd0.jpg)
+Hyy, MyName Is Hitana\nI'm A Telegram Group Manager Bot, I'm Built In python3, Using The python-telegram-bot library, \nIf You Want Know About Me More Do - /familylist \n- You Can Find What Makes Me Tick [here](https://telegra.ph/file/81ab4d5ad08092baaacd0.jpg)
 """
 
 HELP = """
