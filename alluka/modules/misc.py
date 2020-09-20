@@ -328,7 +328,7 @@ def wall(bot: Bot, update: Update, args):
         term = query.replace(" ", "%20")
         json_rep = r.get(f"https://wall.alphacoders.com/api2.0/get.php?auth={WALL_API}&method=search&term={term}").json()
         if not json_rep.get("success"):
-            msg.reply_text("An error occurred! Report this @allukabot")
+            msg.reply_text("An error occurred! Report this @MissLilly_Support")
         else:
             wallpapers = json_rep.get("wallpapers")
             if not wallpapers:
@@ -1519,7 +1519,7 @@ MASTER_MOD = " \
  \n - /react: Reacts with a random reaction.  \
  \n - /shout <keyword>: write anything you want to give loud shout. \
  \n - /feedback : You can give us your feedbacks  \
-   an can see your feeds @allukabotfeeds here. \
+   an can see your feeds @MissLilly_Support here. \
  \n - /tts: {yourtext} will get your entered text into voice form.  \
  \n - /covid: get worldwide corona status \
  \n - /mathhelp: get all math related cmds. \
@@ -1566,4 +1566,4 @@ MASTER_MOD = " \
 
 __help__ = MASTER_MOD
 
-__mod_name__ = "master mod"
+__mod_name__ = "Master Mod"
