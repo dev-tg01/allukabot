@@ -1518,8 +1518,7 @@ MASTER_MOD = " \
     You can either enter just the song name or both the artist and song name. \
  \n - /react: Reacts with a random reaction.  \
  \n - /shout <keyword>: write anything you want to give loud shout. \
- \n - /feedback : You can give us your feedbacks  \
-   an can see your feeds @allukaSupport here. \
+ \n - /feedback : You can give us your feedbacks. \
  \n - /tts: {yourtext} will get your entered text into voice form.  \
  \n - /covid: get worldwide corona status \
  \n - /mathhelp: get all math related cmds. \
@@ -1566,4 +1565,4 @@ MASTER_MOD = " \
 
 __help__ = MASTER_MOD
 
-__mod_name__ = "Master Mod"
+__mod_name__ = "Misc"
