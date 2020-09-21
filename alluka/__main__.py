@@ -403,7 +403,7 @@ def source(bot: Bot, update: Update):
     chat = update.effective_chat  # type: Optional[Chat]
 
     if chat.type == "private":
-        update.effective_message.reply_text(HELP_PANEL_STRING.SOURCE_STRING, parse_mode=ParseMode.MARKDOWN)
+        update.effective_message.reply_photo(HELP_PANEL_STRING.SOURCE_STRING, parse_mode=ParseMode.MARKDOWN)
 
     else:
         try:
