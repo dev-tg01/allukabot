@@ -7,8 +7,8 @@ api_key: 1438627
 api_hash: 'a3df45b8d3b710a5b15b485381f1adc8'
 owner_username: "Ayanokōji_op"
 database_url: "postgres://zsyltgjf:gnr9oSdXglJfT-A26-2N7WeNW1uLNHX_@hansken.db.elephantsql.com:5432/zsyltgjf"
-message_dump: "chat_id"
-gban_dump: "chat_id"
+message_dump: "-1001272685653"
+gban_dump: "-1001272685653"
 load: []
 no_load: []
 cert_path: None
