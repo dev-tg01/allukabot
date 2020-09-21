@@ -1,13 +1,12 @@
-ALLUKA_IMG = "https://telegra.ph/file/d19f4033e7de6677e7d8a.jpg"
+ALLUKA_IMG = "https://telegra.ph/file/345aa7c6ea3df138e194e.jpg"
 
-SOURCE_STRING = """
-Hyy, MyName Is Hitana\nI'm A Telegram Group Manager Bot, I'm Built In python3, Using The python-telegram-bot library, \nIf You Want Know About Me More Do - /familylist \n- You Can Find What Makes Me Tick [here](https://telegra.ph/file/81ab4d5ad08092baaacd0.jpg)
-"""
+SOURCE_STRING = "https://telegra.ph/file/81ab4d5ad08092baaacd0.jpg"
+
 
 HELP = """
-Hey there! My name is *{}*.
-I'm A Modular Group Management Bot With A Few Fun Extras! Have A Look At The Following For An Idea Of Some Of \
-The Things I Can Help You With.
+Hey there! My name is *{}*.\n
+I'm A Anime Themed Chat Management Bot With A Few Fun Extras!\nHave A Look At The Following For An Idea Of Some Of \
+The Things I Can Help You With.\n\n
 *Main* Commands Available:
  - /start: Start The Bot
  - /help: PM's You This Message.
