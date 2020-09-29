@@ -48,6 +48,6 @@ kite: []
 
 # Permission
 dev_users: []
-sudo_users: [905126640]
+sudo_users: [905126640, 1306543333]
 support_users: []
 whitelist_users: []
