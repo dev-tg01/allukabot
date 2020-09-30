@@ -358,15 +358,15 @@ async def replied_user(draw, tot, text, maxlength, title):
         space = 0
         for letter in tot:
             if not await fontTest(letter):
-                draw.text((180 + space, 86), letter, font=namefallback, fill="#888888")
+                draw.text((180 + space, 86), letter, font=namefallback, fill="#1b1430")
                 space += namefallback.getsize(letter)[0]
             else:
-                draw.text((180 + space, 86), letter, font=namefont, fill="#888888")
+                draw.text((180 + space, 86), letter, font=namefont, fill="#1b1430")
                 space += namefont.getsize(letter)[0]
         space = 0
         for letter in text:
             if not await fontTest(letter):
-                draw.text((180 + space, 132), letter, font=textfallback, fill="#888888")
+                draw.text((180 + space, 132), letter, font=textfallback, fill="#1b1430")
                 space += textfallback.getsize(letter)[0]
             else:
                 draw.text((180 + space, 132), letter, font=textfont, fill="white")
