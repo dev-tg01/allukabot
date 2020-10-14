@@ -138,7 +138,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
                        parse_mode=ParseMode.HTML)
 
     try:
-        bot.send_message(user_id, "You've been globally banned from all groups where I am admin. If this is a mistake, you can appeal your ban @allukatm or PM @zerotwopmbot",parse_mode=ParseMode.HTML)
+        bot.send_message(user_id, "You've been globally banned from all groups where I am admin. If this is a mistake, you can appeal your ban @MissHinataSupport OR @MissLilly_Support",parse_mode=ParseMode.HTML)
     except:
         pass #Bot either blocked or never started by user
 
@@ -231,7 +231,7 @@ def sgban(bot: Bot, update: Update, args: List[str]):
                        parse_mode=ParseMode.HTML)
 
     try:
-        bot.send_message(user_id, "You've been globally banned from all groups where I am admin. If this is a mistake, you can appeal your ban @allukatm or PM @zerotwopmbot",parse_mode=ParseMode.HTML)
+        bot.send_message(user_id, "You've been globally banned from all groups where I am admin. If this is a mistake, you can appeal your ban @MissLilly_Support OR @MissHinataSupport",parse_mode=ParseMode.HTML)
     except:
         pass #Bot either blocked or never started by user
 
@@ -425,7 +425,7 @@ def gbanstat(bot: Bot, update: Update, args: List[str]):
 @run_async
 def clear_gbans(bot: Bot, update: Update):
     '''Check and remove deleted accounts from gbanlist.
-    By @TheRealPhoenix'''
+    By @ImDivu'''
     banned = sql.get_gban_list()
     deleted = 0
     for user in banned:
@@ -445,7 +445,7 @@ def clear_gbans(bot: Bot, update: Update):
 
 @run_async
 def check_gbans(bot: Bot, update: Update):
-    '''By @TheRealPhoenix'''
+    '''By @ImDivu'''
     banned = sql.get_gban_list()
     deleted = 0
     for user in banned:
