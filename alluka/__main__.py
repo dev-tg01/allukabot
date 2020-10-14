@@ -130,7 +130,7 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             send_start(bot, update)
     else:
-        update.effective_message.reply_text("Yoo! Whatsupp? 🙃")
+        update.effective_message.reply_text("Hmmmm??")
 
 def send_start(bot, update):
     #Try to remove old message
