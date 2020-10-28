@@ -161,9 +161,9 @@ def kang(bot: Bot, update: Update, args: List[str]):
 def makepack_internal(msg, user, png_sticker, emoji, bot):
     name = user.first_name
     name = name[:50]
-    packname = f"c{user.id}_by_{bot.username}"
+    packname = f"h{user.id}__{bot.username}"
     try:
-        success = bot.create_new_sticker_set(user.id, packname, name + "'s @MissHinata_Bot Pack",
+        success = bot.create_new_sticker_set(user.id, packname, name + " || @MissHinata_Bot",
                                              png_sticker=png_sticker,
                                              emojis=emoji)
     except TelegramError as e:
